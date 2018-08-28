@@ -82,7 +82,7 @@ open class ALKConversationViewController: ALKBaseViewController {
         return titleButton
     }()
 
-    let chatBar: ALKChatBar = ALKChatBar(frame: .zero)
+    open let chatBar: ALKChatBar = ALKChatBar(frame: .zero)
 
     let unreadScrollButton: UIButton = {
         let button = UIButton()
