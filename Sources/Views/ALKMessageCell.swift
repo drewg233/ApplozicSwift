@@ -16,11 +16,8 @@ final class ALKFriendMessageCell: ALKMessageCell {
 
     private var avatarImageView: UIImageView = {
         let imv = UIImageView()
-        imv.contentMode = .scaleAspectFill
-        imv.clipsToBounds = true
+        imv.contentMode = .scaleAspectFit
         let layer = imv.layer
-        layer.cornerRadius = 18.5
-        layer.masksToBounds = true
         imv.isUserInteractionEnabled = true
         return imv
     }()
