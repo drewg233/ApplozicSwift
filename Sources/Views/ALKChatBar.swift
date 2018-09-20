@@ -306,12 +306,12 @@ open class ALKChatBar: UIView {
         
     }
     
-    fileprivate var textViewHeighConstrain: NSLayoutConstraint?
-    fileprivate let textViewHeigh: CGFloat = 40.0
-    fileprivate let textViewHeighMax: CGFloat = 102.2 + 8.0
+    open var textViewHeighConstrain: NSLayoutConstraint?
+    open let textViewHeigh: CGFloat = 80.0
+    open let textViewHeighMax: CGFloat = 102.2 + 8.0
     
-    fileprivate var textViewTrailingWithSend: NSLayoutConstraint?
-    fileprivate var textViewTrailingWithMic: NSLayoutConstraint?
+    open var textViewTrailingWithSend: NSLayoutConstraint?
+    open var textViewTrailingWithMic: NSLayoutConstraint?
     
     private func setupConstraints(
         maxLength: CGFloat = max(UIScreen.main.bounds.size.width, UIScreen.main.bounds.size.height)) {

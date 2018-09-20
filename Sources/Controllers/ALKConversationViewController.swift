@@ -61,7 +61,7 @@ open class ALKConversationViewController: ALKBaseViewController {
             static let height: CGFloat = 100.0
         }
         enum ReplyMessageView {
-            static let height: CGFloat = 70.0
+            static let height: CGFloat = 700.0
         }
     }
 
