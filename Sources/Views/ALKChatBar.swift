@@ -307,8 +307,8 @@ open class ALKChatBar: UIView {
     }
     
     open var textViewHeighConstrain: NSLayoutConstraint?
-    open let textViewHeigh: CGFloat = 80.0
-    open let textViewHeighMax: CGFloat = 102.2 + 8.0
+    open var textViewHeigh: CGFloat = 40.0
+    open var textViewHeighMax: CGFloat = 102.2 + 8.0
     
     open var textViewTrailingWithSend: NSLayoutConstraint?
     open var textViewTrailingWithMic: NSLayoutConstraint?
